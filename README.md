@@ -11,7 +11,7 @@ Bienvenue dans le dépôt du stage de Machine Learning chez Codveda. Ce projet e
 ## Niveaux et Tâches
 
 ### Level 1 - Basic
-1. **Task 1 - Data Preprocessing**: Préparation et nettoyage des données
+1. **Task 1 - Data Preprocessing**: Préparation et nettoyage des données avec visualisation, détection de valeurs aberrantes et matrices de confusion
 2. **Task 2 - Linear Regression**: Régression linéaire simple
 3. **Task 3 - KNN Classifier**: Classification avec l'algorithme des k plus proches voisins
 
@@ -40,6 +40,8 @@ Pour exécuter les notebooks ou scripts, assurez-vous d'avoir installé toutes l
 ```bash
 pip install -r requirements.txt
 ```
+
+Les bibliothèques sont spécifiées avec des versions minimales compatibles avec Python 3.13. Si vous utilisez une version plus ancienne de Python, vous pouvez ajuster les versions dans le fichier requirements.txt.
 
 ## Contribution
 

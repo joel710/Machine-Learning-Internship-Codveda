@@ -8,7 +8,7 @@ Cette tâche vise à introduire l'algorithme du K-Nearest Neighbors (KNN), un cl
 
 - **KNN_Classifier.ipynb** : Notebook Jupyter contenant l'implémentation du classifieur KNN
 - **data/** : Dossier pour les jeux de données
-- **requirements.txt** : Liste des bibliothèques Python nécessaires (hérité de la tâche précédente)
+- **requirements.txt** : Liste des bibliothèques Python nécessaires
 
 ## Concepts Couverts
 
@@ -43,9 +43,9 @@ Cette tâche vise à introduire l'algorithme du K-Nearest Neighbors (KNN), un cl
 
 ## Instructions d'Utilisation
 
-1. Installez les dépendances (si pas déjà fait) :
+1. Installez les dépendances :
    ```
-   pip install -r ../Task_1_Data_Preprocessing/requirements.txt
+   pip install -r requirements.txt
    ```
 
 2. Placez votre jeu de données dans le dossier `data/`
@@ -63,6 +63,10 @@ Cette tâche vise à introduire l'algorithme du K-Nearest Neighbors (KNN), un cl
 - **numpy** : Calcul numérique
 - **matplotlib & seaborn** : Visualisation des données
 - **scikit-learn** : Implémentation du classifieur KNN et évaluation
+
+## Notes sur les Versions
+
+Les bibliothèques sont spécifiées avec des versions minimales compatibles avec Python 3.13. Si vous utilisez une version plus ancienne de Python, vous pouvez ajuster les versions dans le fichier requirements.txt.
 
 ## Notes
 
